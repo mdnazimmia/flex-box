@@ -52,12 +52,17 @@
     color: var(--violet);
 }
 
+.card-title p {
+    font-size: 16px;
+}
+
 .card-state {
     display: flex;
     gap: 35px;
 }
 
-.card-state>p {
+.card-state p {
+    font-size: 10px;
     font-family: var(--secondary-font);
 }
 
